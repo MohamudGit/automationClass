@@ -1,0 +1,8 @@
+<suite name = "Regression Test">
+	<test name = "App Test">
+		<classes>
+			<class name = "testSuites.TestNGClass1"></class>
+			<class name = "testSuites.TestNGClass1"></class>
+		</classes>
+	</test>
+</suite>

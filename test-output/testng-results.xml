@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1216" started-at="2019-09-13T03:09:54Z" finished-at="2019-09-13T03:09:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1216" started-at="2019-09-13T03:09:54Z" finished-at="2019-09-13T03:09:55Z">
+      <class name="prioritizingTest.TestNG_Dependency">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:prioritizingTest.TestNG_Dependency@7a92922]" name="beforeClass" is-config="true" duration-ms="43" started-at="2019-09-12T22:09:54Z" finished-at="2019-09-12T22:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:prioritizingTest.TestNG_Dependency@7a92922]" name="test3" duration-ms="1093" started-at="2019-09-12T22:09:54Z" finished-at="2019-09-12T22:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:prioritizingTest.TestNG_Dependency@7a92922]" name="test1" duration-ms="2" started-at="2019-09-12T22:09:55Z" depends-on-methods="prioritizingTest.TestNG_Dependency.test3" finished-at="2019-09-12T22:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:prioritizingTest.TestNG_Dependency@7a92922]" name="test4" duration-ms="3" started-at="2019-09-12T22:09:55Z" depends-on-methods="prioritizingTest.TestNG_Dependency.test1" finished-at="2019-09-12T22:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:prioritizingTest.TestNG_Dependency@7a92922]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-09-12T22:09:55Z" finished-at="2019-09-12T22:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- prioritizingTest.TestNG_Dependency -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
